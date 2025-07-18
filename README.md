@@ -123,11 +123,6 @@ nmap --script=$NSE_SCRIPT $TARGET_IP -v
 chmod +x nse_scan.sh
 ```
 
-### Example Usage
-```bash
-./nse_scan.sh 192.168.1.1 http-title
-```
-
 ---
 
 ##
