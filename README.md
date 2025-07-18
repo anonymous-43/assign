@@ -45,21 +45,21 @@ def nmap_port_scanner(ip, port_range):
 - Enables you to control Nmap from Python code.
 
 ### Key Methods and Usage
-| `nmap.PortScanner()` | Creates a new scanner object |
+ `nmap.PortScanner()` = Creates a new scanner object 
 
-| `.scan(hosts, ports)` | Scans the host/port range |
+ `.scan(hosts, ports)` = Scans the host/port range 
 
-| `.all_hosts()` | Lists all scanned hosts |
+ `.all_hosts()` = Lists all scanned hosts 
 
-| `.hostname()` | Returns DNS name |
+ `.hostname()` = Returns DNS name 
 
-| `.state()` | Returns host state (up/down) |
+ `.state()` = Returns host state (up/down) 
 
-| `.all_protocols()` | Returns `tcp` or `udp` |
+ `.all_protocols()` = Returns `tcp` or `udp` 
 
-| `[proto][port]['state']` | Port status (`open`, `closed`, etc.) |
+ `[proto][port]['state']` = Port status (`open`, `closed`, etc.) 
 
-| `--script` | Pass NSE scripts to the scan |
+ `--script` = Pass NSE scripts to the scan 
 
 
 ### Requirements
